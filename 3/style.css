@@ -1,0 +1,555 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
+
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Playfair Display', serif;
+}
+body{
+    background-color: #1E2020;
+}
+aside{
+    width: 320px;
+    height: 100%;
+    background-color: #1E2020;
+    position: fixed;
+ top: 0px;
+    
+}
+.box-2{
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+  
+}
+.box{
+    display: flex;
+   margin-top: 30px;
+   align-items: center;
+   margin-left: 20px;
+    
+}
+.box h1{
+    font-size: 32px;
+    color: white;
+}
+.box-3{
+    color:#F0B900;
+}
+.box-4{
+    margin-top: 25px;
+    margin-left: 20px;
+    color: white;
+}
+.naix-1{
+    width: 25px;
+    height: 25px;
+    margin-right: 15px;
+    filter:invert(90%);
+    margin-left: 20px;
+}
+.item-1{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+   transition: 300ms ease;
+
+    
+}
+.item-1 p{
+    color: white;
+    
+}
+.wraper{
+    margin-top: 20px;
+    border-top: solid 1px gray;
+    padding-top: 30px;
+   
+}
+.naix-11{
+    width: 35px;
+    height: 35px;
+    margin-right: 12px;
+    filter:invert(90%);
+    margin-left: 15px;
+}
+.item-1:hover{
+    opacity: 0.6;
+    background-color: gray;
+}
+a{
+    text-decoration: transparent;
+}
+header{
+    width: 78%;
+    height: 60px;
+    background-color: #1E2020;
+    position: fixed;
+    right: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    opacity: 0.8;
+    top: 0px;
+    z-index: 100;
+    
+}
+.olx a{
+    font-size: 23px !important;
+    color: white;
+    transition: 300ms ease;
+}
+.olx{
+    margin-left: 20px;
+ 
+}
+.olx a:hover{
+    opacity: 0.8;
+}
+ button{
+    width: 110px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    color: black;
+    background-color: #FED305;
+    margin-right: 15px;
+    transition: 300ms ease;
+    
+}
+button:hover{
+    width: 115px;
+}
+.hp{
+    width: 76%;
+    height: 600px;
+    border-right: transparent;
+    background-color: red;
+    margin: 60px auto;
+    float: right;
+    background-image: url(./img/nn.webp);
+    background-size: cover;
+    background-position: center;   
+    padding: 20px;
+   
+    position: relative;
+  
+}
+.hela-1{
+    width: 23px;
+    height: 23px;
+    filter: invert(100%);
+    margin-right: 20px;
+}
+.hela{
+    display: flex;
+  
+}
+.hela a{
+    font-size: 18px;
+    color: gray;
+}
+.slark{
+    width: 130px;
+    height: 20px;
+    position: relative;
+
+ 
+}
+.slark-2{
+    width: 130px;
+    height: 90px;
+    background-color: #1C1F1F;
+    opacity: 0;
+}
+.slark:hover .slark-2{
+    opacity: 9;
+}
+.morgi-1{
+    width: 10px;
+    height: 10px;
+    filter: invert(70%);
+    display: flex;
+    margin-right: 5px;
+    transition: 300ms ease;
+    
+   
+}
+.morgi{
+    width: 100px;
+    display: flex;
+    align-items: center;
+    height: 20px;
+    transition: 300ms ease;
+   
+}
+.morgi p{
+    color: gray;
+}
+.oi:hover p{
+    color: white;
+}
+.oi:hover .morgi-1{
+    filter: invert(100%);
+}
+.morgi-4{
+    width: 20px;
+    height: 20px;
+filter: invert(70%);
+margin-left: 25px;
+margin-right: 10px;
+}
+.morgi-4:hover{
+    opacity: 0.8;
+}
+.oi{
+    display: flex;
+    align-items: center;
+    transition: 300ms ease;
+}
+.oi-2{
+    width: 20px;
+    height: 20px;
+filter: invert(70%);
+
+transition: 300ms ease;
+}
+.oi-2:hover{
+    opacity: 0.8;
+}
+.io-3{
+    width: 20px;
+    height: 20px;
+filter: invert(70%);
+margin-left: 10px;
+margin-right: 10px;
+transition: 300ms ease;
+}
+.io-3:hover{
+    opacity: 0.8;
+}
+.io-4{
+    color: white !important;
+    transition: 300ms ease;
+    
+}
+.io-4:hover{
+    color: gray !important;
+   
+}
+.mol{
+    width: 80%;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.io-8{
+    width: 25px;
+margin-left: 10px;
+    
+}
+.lore{
+    width: 200px;
+    height: 130px;
+    background-color: #1E2020;
+    position:absolute;
+    border-radius: 15px 0px 15px 15px;
+    right: 250px;
+    top: 60px;
+    padding: 25px;
+}
+.lore p{
+    color: white;
+
+}
+.lore-1{
+    width: 60px;
+    height: 30px;
+    color: black;
+    background-color: #FED305;
+transition: 300ms ease;
+}
+.lore-2{
+    width: 60px;
+    height: 30px;
+    background-color: #1E2020;
+    color: white !important;
+    border: solid white 1px;
+    transition: 300ms ease;
+}
+.lore-3{
+    display: flex;
+    margin-top: 20px;
+}
+.lore-4{
+    position: relative;
+    top: 145px;
+    font-size: 64px;
+    left: 40px;
+    color: white;
+}
+.lorem-2{
+width: 120px;
+height: 40px;
+background-color: #1E2020;
+color: white;
+position: absolute;
+right: 0px;
+top: 370px;
+}
+.lorem-3{
+    width: 120px;
+    height: 40px;
+    position: absolute;
+right: 150px;
+top: 370px;
+    }
+    .lorem-1{
+        position: relative;
+  
+    }
+    .asus{
+        width: 76.6%;
+    
+        border-right: transparent;
+        background-color: #1E2020;
+        margin: 0px auto;
+        float: right;
+        display: flex;
+       
+    }
+    .asus-1{
+        width: 50%;
+        padding: 25px;
+    }
+    .asus-2{
+        width: 100px;
+        height: 40px;
+        background-color: #25282A;
+        color: white;
+        margin-top: 20px;
+        
+    }
+.asus-1 h1{
+    color: white;
+}
+
+    .asus-3{
+        display: flex;
+        width: 200px;
+        margin-top: 25px;
+    }
+    .asus-3 p{
+        font-size: 17px;
+        margin-left: 20px;
+        color: white;
+    }
+    .asus-3 img{
+        width: 30px;
+        height: 30px;
+        filter: invert(50%);
+    }
+    .asus-4{
+        display: flex;
+        width: 140px;
+        margin-top: 25px;
+    }
+    .asus-4 img{
+        width: 30px;
+        height: 30px;
+        filter: invert(50%);
+    }
+    .asus-4 p{
+        font-size: 17px;
+        margin-left: 20px;
+        color: white;
+    }
+    .asus-5{
+        display: flex;
+        width: 150px;
+        margin-top: 25px;
+     
+    }
+    .asus-5 p{
+        font-size: 17px;
+        margin-left: 10px;
+        color: white;
+    }
+    .asus-5 img{
+        width: 40px;
+        height: 40px;
+        filter: invert(50%);
+
+    }
+ .mila{
+    
+        width: 76%;
+    
+        border-right: transparent;
+        background-color:#1E2020;
+        margin: 0px auto;
+      
+        float: right;   
+    
+ }
+ .mila h1{
+     color: white;
+     margin-left: 20px;
+ }
+.usa{
+    width: 76%;
+    height: 1200px;
+    border-right: transparent;
+    background-color: #1E2020;
+    margin: 30px auto;
+    float: right;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row: 300px;
+    grid-gap: 20px;
+}
+.clop{
+    background-color: #25282A;
+    position: relative;
+    border-radius: 25px;
+    transition: 300ms ease;
+}
+.usa-1{
+    width: 90px;
+    height: 90px;
+    
+    background-image: url(./img/radio.png);
+    background-size: cover;
+    position: absolute;
+    right: 5px;
+    top: -35px;
+}
+.usa-2{
+    width: 70%;
+    color: white;
+  margin-top: 80px;
+  margin-left: 50px;
+}
+.usa-2 p{
+    margin-top: 20px;
+}
+.cloper{
+    background-image: url(./img/kamera.png);
+    background-size: cover;
+    position: absolute;
+    width: 90px;
+    height: 70px;
+    right: 5px;
+    top: -35px;
+}
+.cloper-1{
+    background-image: url(./img/880.png);
+    background-size: cover;
+    position: absolute;
+    width: 90px;
+    height: 70px;
+    right: 5px;
+    top: -35px;
+}
+.cloper-2{
+    background-image: url(./img/wifi.png    );
+    background-size: cover;
+    position: absolute;
+    width: 90px;
+    height: 70px;
+    right: 5px;
+    top: -35px;
+}
+.cloper-3{
+   background-image: url(./img/vpn.png);
+    background-size: cover;
+    position: absolute;
+    width: 90px;
+    height: 70px;
+    right: 5px;
+    top: -35px;
+}
+.cloper-4{
+    background-image: url(./img/fignya.png);
+     background-size: cover;
+     position: absolute;
+     width: 90px;
+     height: 70px;
+     right: 5px;
+     top: -35px;
+ }
+ .cloper-5{
+    background-image: url(./img/krg.png);
+     background-size: cover;
+     position: absolute;
+     width: 90px;
+     height: 70px;
+     right: 5px;
+     top: -35px;
+ }
+ .cloper-6{
+    background-image: url(./img/list.png);
+     background-size: cover;
+     position: absolute;
+     width: 90px;
+     height: 70px;
+     right: 5px;
+     top: -35px;
+ }
+ .clop:hover{
+     box-shadow: 0px 0px 15px 0px black;
+  
+ }
+
+ .map-boss{
+    width: 76%;
+    height: 600px;
+    border-right: transparent;
+    background-color: #1E2020;
+    margin: 30px auto;
+    float: right;
+ }
+ .map{
+     width: 90%;
+    height: 100%; 
+    background-image: url(./img/map.svg);
+    background-size:contain;
+    background-position: center;
+    background-repeat: no-repeat    ;
+    
+ }
+ main{
+     width: 48%;
+     height: 55px;
+     background-color: #FED305;
+     position: fixed;
+     bottom: 14px;
+     right: 15px;
+     border-radius: 50px;
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+ }
+ .tosha{
+     height: 40px;
+     border-radius: 15px;
+     padding-left: 10px;
+ }
+ .tosha-2{
+     background-color: #383A51;
+     color: white;
+ }
+ .tosha-3{
+     width: 30px;
+     height: 30px;
+ }
